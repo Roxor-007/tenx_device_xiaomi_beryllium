@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common Dot OS stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
